@@ -1,7 +1,7 @@
 package main
 
 import (
-	"even"
+	"example/even"
 	"fmt"
 )
 

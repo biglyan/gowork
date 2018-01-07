@@ -1,4 +1,4 @@
-package even
+package even // import "example/even"
 
 func Even(i int) bool {
 	return i%2 == 0

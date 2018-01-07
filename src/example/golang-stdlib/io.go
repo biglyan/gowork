@@ -1,11 +1,11 @@
 package main
 
 import (
+	"example/util"
 	"fmt"
 	"io"
 	"os"
 	"strings"
-	"util"
 )
 
 func ReadFrom(reader io.Reader, num int) ([]byte, error) {
