@@ -27,5 +27,5 @@ func main() {
 	// your http.Handle calls here
 	http.Handle("/string", String("I'm a frayed knot."))
 	http.Handle("/struct", &Struct{"Hello", ":", "Gophers!"})
-	log.Fatal(http.ListenAndServe("localhost:4000", nil))
+	log.Fatal(http.ListenAndServe("localhost:80", nil))
 }
