@@ -19,6 +19,7 @@ type Q struct {
 }
 
 func main() {
+
 	// Initialize the encoder and decoder.  Normally enc and dec would be
 	// bound to network connections and the encoder and decoder would
 	// run in different processes.
